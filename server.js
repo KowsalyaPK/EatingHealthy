@@ -51,8 +51,15 @@ router.get('/writeToFile', webToDropbox.writeToFile);
 //app.get('/sessions/:id', sessions.findById);
 
 
-app.set('port', process.env.PORT || 5000);
-app.use('/', router);
-app.listen(app.get('port'), function () {
-    console.log('Express server listening on port ' + app.get('port'));
+// app.set('port', process.env.PORT || 5000);
+// app.use('/', router);
+// app.listen(app.get('port'), function () {
+//     console.log('Express server listening on port ' + app.get('port'));
+// });
+
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 5000;
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
+
+app.listen(server_port, server_ip_address, function () {
+    console.log("Listening on " + server_ip_address + ", server_port " + server_port);
 });
