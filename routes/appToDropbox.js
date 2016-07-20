@@ -186,6 +186,7 @@ var writeToJSON = function (req, res) {
 /*  Common variable for the mobile app and web app */
 /*  get the list of users who have snapped atleast one picture */
 var getAppUsers = function (req, res) {
+    console.log('redirected');
     res.send(activeAppUsers);
 };
 
