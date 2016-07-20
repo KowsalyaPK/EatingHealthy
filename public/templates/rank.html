@@ -1,0 +1,37 @@
+<div class="rank-container">
+    <div class="rank-item-info">
+        <div class="item-container">
+            <div class="item-info">Person's Name</div>
+            <div class="item-info">{{user.name}}</div>
+        </div>
+        <div class="item-container">
+            <div class="item-info">Algorithm Rank</div>
+            <div class="item-info">{{image.algorithmScore}}</div>
+        </div>
+        <div class="item-container">
+            <div class="item-info">Time of Snap</div>
+            <div class="item-info">{{imageDate | date : 'MMM d, y'}} | {{imageTime}}</div>
+        </div>
+        <line></line>
+        <div class="item-container">
+            <div class="item-info">Reccomendations</div>
+            <div class="item-info">
+                <textarea rows="2"></textarea>
+            </div>
+        </div>
+        <div class="item-rank-container">
+            <div class="item-rank-info">Score</div>
+            <range-slider class="rankSlider" range-data="range"></range-slider>
+            <input min="-1" max="10" step="0.1" type="number" ng-model="range.rangeValue" value="range.rangeValue" class="input-text">
+        </div>
+        <div class="button-container">
+            <button ng-click="gotoPrevImage()" ng-disabled="index == 0">Previous</button>
+            <button ng-click="saveAndGotoPerson()">Done</button>
+            <button ng-click="gotoNextImage()" ng-hide="index == imageList.length-1">Next</button>
+            <button ng-show="index == imageList.length-1" ng-click="saveAndGotoDashboard()">Finish</button>
+        </div>
+    </div>
+    <div class="rank-item-image">
+        <img ng-src="{{urlForImage(image)}}" ng-error="downloadImage(image)" ng-if="showImage" class="rank-image">
+    </div>
+</div>

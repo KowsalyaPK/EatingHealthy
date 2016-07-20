@@ -1,0 +1,11 @@
+<div class="inner-content">
+    <div class="dateFilter">
+        Start Date :
+        <input type="date" name="startDate" min="{{startMinDate}}" max="{{startMaxDate}}" ng-model="startDate"> End Date :
+        <input type="date" name="endDate" min="2016-05-01" max="{{startMaxDate}}" ng-model="endDate">
+        <button ng-click="filterImages()">Filter</button>
+    </div>
+    <div class="card-container">
+        <image-card image="image" index="$index" ng-repeat="image in allImages"></image-card>
+    </div>
+</div>

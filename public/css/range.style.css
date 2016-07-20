@@ -1,0 +1,115 @@
+/* =====================================   Range     ============================= */
+
+input[type=range] {
+    border: none;
+    outline: none;
+    width: 75%;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+input[type=range]{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+
+/* ===================================      Chrome      ================================ */
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 5px;
+    border: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #00BFA5;
+    margin: -5px 0 0 0;
+    transition: .3s;
+}
+
+
+/* ===================================      Firefox      ================================ */
+
+@-moz-document url-prefix() {
+    input[type=range] {
+        height: 5px;
+        outline: none !important;
+    }
+}
+
+input[type=range]::-moz-range-track {
+    border: none;
+    height: 5px;
+    outline: none !important;
+    background: none;
+}
+
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #00BFA5;
+    margin-top: -5px;
+}
+
+input[type=range]:-moz-focusring {
+    outline: none !important;
+}
+
+input[type=range]:focus::-moz-range-track {
+    background: none;
+    outline: none !important;
+}
+
+
+/* =============================     Internet explorer     ================================ */
+
+input[type=range]::-ms-track {
+    height: 5px;
+    border-width: 10px 0;
+    border-color: #ffffff;
+    /*remove default tick marks*/
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #00BFA5;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #c2c0c2;
+}
+
+input[type=range]::-ms-thumb {
+    -ms-appearance: none;
+    appearance: none;
+    border: none;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: #00BFA5;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #00BFA5;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #c2c0c2;
+}

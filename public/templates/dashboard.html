@@ -1,0 +1,38 @@
+<div class="inner-content">
+
+    <div class="filterBox-container">
+        <div class="filterBox selected" ng-click="filterNames($event, '')">All</div><pre> | </pre>
+        <div class="filterBox" ng-click="filterNames($event, 'A')">A</div>
+        <div class="filterBox" ng-click="filterNames($event, 'B')">B</div>
+        <div class="filterBox" ng-click="filterNames($event, 'C')">C</div>
+        <div class="filterBox" ng-click="filterNames($event, 'D')">D</div>
+        <div class="filterBox" ng-click="filterNames($event, 'E')">E</div>
+        <div class="filterBox" ng-click="filterNames($event, 'F')">F</div>
+        <div class="filterBox" ng-click="filterNames($event, 'G')">G</div>
+        <div class="filterBox" ng-click="filterNames($event, 'H')">H</div>
+        <div class="filterBox" ng-click="filterNames($event, 'I')">I</div>
+        <div class="filterBox" ng-click="filterNames($event, 'J')">J</div>
+        <div class="filterBox" ng-click="filterNames($event, 'K')">K</div>
+        <div class="filterBox" ng-click="filterNames($event, 'L')">L</div>
+        <div class="filterBox" ng-click="filterNames($event, 'M')">M</div>
+        <div class="filterBox" ng-click="filterNames($event, 'N')">N</div>
+        <div class="filterBox" ng-click="filterNames($event, 'O')">O</div>
+        <div class="filterBox" ng-click="filterNames($event, 'P')">P</div>
+        <div class="filterBox" ng-click="filterNames($event, 'Q')">Q</div>
+        <div class="filterBox" ng-click="filterNames($event, 'R')">R</div>
+        <div class="filterBox" ng-click="filterNames($event, 'S')">S</div>
+        <div class="filterBox" ng-click="filterNames($event, 'T')">T</div>
+        <div class="filterBox" ng-click="filterNames($event, 'U')">U</div>
+        <div class="filterBox" ng-click="filterNames($event, 'V')">V</div>
+        <div class="filterBox" ng-click="filterNames($event, 'W')">W</div>
+        <div class="filterBox" ng-click="filterNames($event, 'X')">X</div>
+        <div class="filterBox" ng-click="filterNames($event, 'Y')">Y</div>
+        <div class="filterBox" ng-click="filterNames($event, 'Z')">Z</div>
+    </div>
+
+    <div class="card-container">
+        <!-- <person-card person="person " ng-repeat="person in appUsers | filter: {name :filterLetter} "></person-card>-->
+        <!-- <person-card person="person" ng-repeat="person in appUsers | filter:startsWith"></person-card>-->
+        <person-card person="person" ng-repeat="person in filteredUsers"></person-card>
+    </div>
+</div>

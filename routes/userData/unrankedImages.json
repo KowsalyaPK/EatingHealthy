@@ -1,0 +1,128 @@
+{
+    "imagesInfo": {
+        "1@gmail.comimagedate29-05-2016imagetime18-51-30.jpg": {
+            "user": "1@gmail.com",
+            "imageLocation": "1@gmail.com/2016/05/1@gmail.comimagedate29-05-2016imagetime18-51-30.jpg",
+            "imageName": "1@gmail.comimagedate29-05-2016imagetime18-51-30.jpg",
+            "humanScore": -1,
+            "algorithmScore": 9.8,
+            "humanRecommendation": "good healthy diet",
+            "timeTaken": "06:51PM",
+            "dateTaken": "29-05-2016"
+        },
+        "1@gmail.comimagedate29-05-2016imagetime19-8-22.jpg": {
+            "user": "1@gmail.com",
+            "imageLocation": "1@gmail.com/2016/05/1@gmail.comimagedate29-05-2016imagetime19-8-22.jpg",
+            "imageName": "1@gmail.comimagedate29-05-2016imagetime19-8-22.jpg",
+            "humanScore": -1,
+            "algorithmScore": 7,
+            "humanRecommendation": "good healthy diet",
+            "timeTaken": "07:08PM",
+            "dateTaken": "29-05-2016"
+        },
+        "1@gmail.com-imagedate23-06-2016imagetime13-00-2.jpg": {
+            "user": "1@gmail.com",
+            "imageLocation": "1@gmail.com/2016/06/1@gmail.com-imagedate23-06-2016imagetime13-00-2.jpg",
+            "imageName": "1@gmail.com-imagedate23-06-2016imagetime13-00-2.jpg",
+            "algorithmScore": 7.6,
+            "humanScore": -1,
+            "humanRecommendation": "good healthy diet",
+            "userAccess": true,
+            "timeTaken": "13-00-2",
+            "dateTaken": "23-06-2016"
+        },
+        "1@gmail.com-imagedate27-06-2016imagetime10-33-17.jpg": {
+            "user": "1@gmail.com",
+            "imageLocation": "1@gmail.com/2016/06/1@gmail.com-imagedate27-06-2016imagetime10-33-17.jpg",
+            "imageName": "1@gmail.com-imagedate27-06-2016imagetime10-33-17.jpg",
+            "algorithmScore": 8,
+            "humanScore": -1,
+            "humanRecommendation": "good healthy diet",
+            "userAccess": true,
+            "timeTaken": "10-33-17",
+            "dateTaken": "27-06-2016"
+        },
+        "1@gmail.com-imagedate27-06-2016imagetime10-34-22.jpg": {
+            "user": "1@gmail.com",
+            "imageLocation": "1@gmail.com/2016/06/1@gmail.com-imagedate27-06-2016imagetime10-34-22.jpg",
+            "imageName": "1@gmail.com-imagedate27-06-2016imagetime10-34-22.jpg",
+            "algorithmScore": 1,
+            "humanScore": -1,
+            "humanRecommendation": "good healthy diet",
+            "userAccess": true,
+            "timeTaken": "10-34-22",
+            "dateTaken": "27-06-2016"
+        },
+        "1@gmail.com-imagedate23-06-2016imagetime12-57-52.jpg": {
+            "user": "1@gmail.com",
+            "imageLocation": "1@gmail.com/2016/06/1@gmail.com-imagedate23-06-2016imagetime12-57-52.jpg",
+            "imageName": "1@gmail.com-imagedate23-06-2016imagetime12-57-52.jpg",
+            "algorithmScore": 1.8,
+            "humanScore": 5,
+            "humanRecommendation": "good healthy diet",
+            "userAccess": true,
+            "timeTaken": "12-57-52",
+            "dateTaken": "23-06-2016"
+        },
+        "gowtham@gmail.com-imagedate14-06-2016imagetime11-49-56.jpg": {
+            "user": "gowtham@gmail.com",
+            "imageLocation": "gowtham@gmail.com/2016/06/gowtham@gmail.com-imagedate14-06-2016imagetime11-49-56.jpg",
+            "imageName": "gowtham@gmail.com-imagedate14-06-2016imagetime11-49-56.jpg",
+            "algorithmScore": -1,
+            "humanScore": -1,
+            "humanRecommendation": "good healthy diet",
+            "userAccess": true,
+            "timeTaken": "11-49-56",
+            "dateTaken": "14-06-2016"
+        },
+        "gowtham@gmail.com-imagedate15-06-2016imagetime18-40-26.jpg": {
+            "user": "gowtham@gmail.com",
+            "imageLocation": "gowtham@gmail.com/2016/06/gowtham@gmail.com-imagedate15-06-2016imagetime18-40-26.jpg",
+            "imageName": "gowtham@gmail.com-imagedate15-06-2016imagetime18-40-26.jpg",
+            "algorithmScore": 7.3,
+            "humanScore": -1,
+            "humanRecommendation": "good healthy diet",
+            "userAccess": true,
+            "timeTaken": "18-40-26",
+            "dateTaken": "15-06-2016"
+        },
+        "gowtham@gmail.com-imagedate15-06-2016imagetime17-34-23.jpg": {
+            "user": "gowtham@gmail.com",
+            "imageLocation": "gowtham@gmail.com/2016/06/gowtham@gmail.com-imagedate15-06-2016imagetime17-34-23.jpg",
+            "imageName": "gowtham@gmail.com-imagedate15-06-2016imagetime17-34-23.jpg",
+            "algorithmScore": 7.3,
+            "humanScore": -1,
+            "humanRecommendation": "good healthy diet",
+            "userAccess": true,
+            "timeTaken": "17-34-23",
+            "dateTaken": "15-06-2016"
+        },
+        "2@gmail.com-imagedate15-06-2016imagetime22-17-28.jpg": {
+            "user": "2@gmail.com",
+            "imageLocation": "2@gmail.com/2016/06/2@gmail.com-imagedate15-06-2016imagetime22-17-28.jpg",
+            "imageName": "2@gmail.com-imagedate15-06-2016imagetime22-17-28.jpg",
+            "algorithmScore": 7.2,
+            "humanScore": -1,
+            "humanRecommendation": "good healthy diet",
+            "userAccess": true,
+            "timeTaken": "22-17-28",
+            "dateTaken": "15-06-2016"
+        },
+        "2@gmail.com-imagedate16-06-2016imagetime21-20-46.jpg": {
+            "user": "2@gmail.com",
+            "imageLocation": "2@gmail.com/2016/06/2@gmail.com-imagedate16-06-2016imagetime21-20-46.jpg",
+            "imageName": "2@gmail.com-imagedate16-06-2016imagetime21-20-46.jpg",
+            "algorithmScore": 9.9,
+            "humanScore": -1,
+            "humanRecommendation": "good healthy diet",
+            "userAccess": true,
+            "timeTaken": "21-20-46",
+            "dateTaken": "16-06-2016"
+        }
+    },
+    "userInfo": {
+        "1@gmail.com": ["1@gmail.comimagedate29-05-2016imagetime18-51-30.jpg", "1@gmail.comimagedate29-05-2016imagetime19-8-22.jpg", "1@gmail.com-imagedate23-06-2016imagetime13-00-2.jpg", "1@gmail.com-imagedate27-06-2016imagetime10-33-17.jpg", "1@gmail.com-imagedate27-06-2016imagetime10-34-22.jpg", "1@gmail.com-imagedate23-06-2016imagetime12-57-52.jpg"],
+        "gowtham@gmail.com": ["gowtham@gmail.com-imagedate14-06-2016imagetime11-49-56.jpg", "gowtham@gmail.com-imagedate15-06-2016imagetime18-40-26.jpg", "gowtham@gmail.com-imagedate15-06-2016imagetime17-34-23.jpg"],
+        "2@gmail.com": ["2@gmail.com-imagedate15-06-2016imagetime22-17-28.jpg", "2@gmail.com-imagedate16-06-2016imagetime21-20-46.jpg"]
+    }
+}

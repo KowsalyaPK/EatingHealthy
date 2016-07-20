@@ -1,0 +1,35 @@
+<tabs>
+    <tabs-header>
+    <tab-title ng-class="{tabSelected: selectedTab === 0}" ng-click="showTab(0)">Per Individual</tab-title>
+    <tab-title ng-class="{tabSelected: selectedTab === 1}" ng-click="showTab(1)">Per Image</tab-title>
+    <tab-title ng-class="{tabSelected: selectedTab === 2}" ng-click="showTab(2)">Preranked image</tab-title>
+</tabs-header>
+    <tabs-content>
+        <tab ng-show="selectedTab === 0">
+            <div class="card-container">
+                <person-card user="person" ng-repeat="person in appUsers"></person-card>
+            </div>
+        </tab>
+        <tab ng-show="selectedTab === 1">
+            <div class="card-container">
+                <image-card image="image" index="$index" ng-repeat="image in unrankedImages"></image-card>
+            </div>
+        </tab>
+
+        <tab ng-show="selectedTab === 2">
+            <div class="preRanked-container">
+                <div class="date-container">
+                    <input type="date" name="bday">
+                </div>
+                <div class="person-container">
+                    <select>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+        </tab>
+    </tabs-content>
+</tabs>

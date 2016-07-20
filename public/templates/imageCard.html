@@ -1,0 +1,13 @@
+<div ng-click="goToRank($index)" class="imageCard-container">
+    <!--<div class="card" ng-click="goToRank()">-->
+    <div class="image-card" ng-if="showImage">
+        <div class="card-image">
+            <img ng-src="{{urlForImage(image)}}" ng-error="downloadImage(image)" class="custom-card-image">
+        </div>
+        <div class="imagecard-content">
+            <div class="card-title">Score : {{image.humanScore}}</div>
+        </div>
+    </div>
+
+
+</div>
